@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background: rgba(46, 204, 113, 0.2);
+    border: 1px solid #b8d1be;
+    cursor: pointer;
+/*    transition: 300ms all cubic-bezier(.32, .15, .25, 1);*/
+}
+
+.green {
+    background: #27ae60;
+}
